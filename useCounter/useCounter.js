@@ -10,6 +10,8 @@ export const useCounterr = (initialValue=10) => {
         setCounterr(counterr + value);
     }
 
+    const [hola3, setHola3] = useState();
+
     const decrement = (value) => {
         if(counterr === 1) return;
 
